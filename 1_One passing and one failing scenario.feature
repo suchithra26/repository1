@@ -1,8 +1,8 @@
-@T1-10
-Feature: One passing and one failing scenario
+@a
+Feature: Execution using curl command
 
-	@TEST_T1-9
-	Scenario: One passing and one failing scenario
+	@b
+	Scenario: Passing
 		Given this step passes
 		
 		  @c
