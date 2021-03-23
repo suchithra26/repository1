@@ -1,0 +1,136 @@
+[
+  {
+    "uri": "features/one_passing_one_failing.feature",
+    "keyword": "Feature",
+    "id": "one-passing-scenario,-one-failing-scenario",
+    "name": "Execution using curl command",
+    "line": 2,
+    "description": "",
+    "tags": [
+      {
+        "name": "@a",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "id": "one-passing-scenario,-one-failing-scenario;passing",
+        "name": "Passing",
+        "line": 5,
+        "description": "",
+        "tags": [
+          {
+            "name": "@b",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step passes",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "id": "one-passing-scenario,-one-failing-scenario;failing",
+        "name": "Failing",
+        "line": 9,
+        "description": "",
+        "tags": [
+          {
+            "name": "@c",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step fails",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:4"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": " (RuntimeError)\n./features/step_definitions/steps.rb:4:in /^this step fails$/'\nfeatures/one_passing_one_failing.feature:10:in Given this step fails'",
+              "duration": 1
+            }
+          }
+        ]
+      },
+
+{
+        "keyword": "Scenario",
+        "id": "one-passing-scenario,-one-failing-scenario;failing",
+        "name": "Passing",
+        "line": 13,
+        "description": "",
+        "tags": [
+          {
+            "name": "@d",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step passes",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "error_message": " (RuntimeError)\n./features/step_definitions/steps.rb:4:in /^this step fails$/'\nfeatures/one_passing_one_failing.feature:10:in Given this step fails'",
+              "duration": 1
+            }
+          }
+        ]
+      },
+
+
+      {
+        "keyword": "Scenario",
+        "id": "one-passing-scenario,-one-failing-scenario;failing",
+        "name": "Failing",
+        "line": 17,
+        "description": "",
+        "tags": [
+          {
+            "name": "@c",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step fails",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/steps.rb:4"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": " (RuntimeError)\n./features/step_definitions/steps.rb:4:in /^this step fails$/'\nfeatures/one_passing_one_failing.feature:10:in Given this step fails'",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
