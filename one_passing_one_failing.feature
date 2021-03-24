@@ -1,4 +1,4 @@
-@PG-24
+@PG-24 -suchi
 Feature: One passing and one failing scenario
 kj
 @a
