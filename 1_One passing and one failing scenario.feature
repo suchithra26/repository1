@@ -1,8 +1,8 @@
-@asuchi
-Feature: Execution using curl command
+@T1-10
+Feature: One passing and one failing scenario
 
-	@b
-	Scenario: Passing
+	@TEST_T1-9
+	Scenario: One passing and one failing scenario
 		Given this step passes
 		
 		  @c
